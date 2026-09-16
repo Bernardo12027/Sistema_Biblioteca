@@ -22,15 +22,6 @@ biblioteca/
 └── README.md
 ```
 
-## Como executar
-
-Não é necessário instalar nenhuma dependência externa — o projeto usa apenas a biblioteca `sqlite3`, que já vem com o Python.
-
-```bash
-python main.py
-```
-
-Na primeira execução, um arquivo `biblioteca.db` será criado automaticamente no mesmo diretório, contendo a tabela de livros.
 
 ## Exemplo de uso
 
@@ -46,8 +37,3 @@ Na primeira execução, um arquivo `biblioteca.db` será criado automaticamente 
 0. Sair
 ```
 
-## Possíveis melhorias futuras
-
-- Interface gráfica (Tkinter ou web com Flask)
-- Cadastro de usuários e histórico de empréstimos
-- Data de devolução e controle de atrasos
